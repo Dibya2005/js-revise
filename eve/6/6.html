@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,body{
+      width: 100%;
+      height: 100%;
+    }
+    #main{
+      display: flex;
+      background-color: rgba(207, 207, 151, 0.79);
+    }
+    input{
+      display: block;
+      height: 18px;
+    }
+    #btn{
+      padding: 12px 10px;
+      background-color: rgba(255, 0, 102, 0.589);
+      color: white;
+      border-radius: 30px;
+    }
+    #btn:hover{
+      background-color: rgba(255, 127, 150, 0.158);
+    }
+    .card{
+      width: 200px;
+      height: 240px;
+      padding: 20px;
+      border: 2px solid black;
+    }
+    .profile{
+      height: 20px;
+      width: 20px;
+      margin-bottom: 20px;
+      background-color: tomato;
+      border-radius: 30%;
+    }
+    .profile img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+    .card h5{
+      margin-top: 4px;
+    }
+    .card p{
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="main">
+    <form id="myForm">
+      <input type="text" placeholder="profile pic link" required>
+      <input type="text" placeholder="name" required>
+      <input type="text" placeholder="occupation" required>
+      <input type="text" placeholder="description" required>
+      <input type="submit" id="btn" value="Add Card">
+    </form>
+  </div>
+
+  <script src="6.js"></script>
+</body>
+</html>

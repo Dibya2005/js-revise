@@ -1,0 +1,1 @@
+console.log(user."first-name") //error occurs
