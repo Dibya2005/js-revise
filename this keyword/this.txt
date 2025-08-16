@@ -1,0 +1,8 @@
+globel- window
+function-window 
+method with es 5 fun-object
+method with es 6 arrow function- window
+es5 function inside es 5 method - window
+arrow function inside es5 object-object
+event listener - element
+claass-blank object
